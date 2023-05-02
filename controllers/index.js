@@ -10,7 +10,7 @@ async function getPersonalData(req, res) {
     res.status(200).send(contacts); // Send the data as a response
   } catch (err) {
     console.error(err);
-    res.status(500).send("Error retrieving contacts");
+    res.status(500).send("Error retrieving personal data");
   } finally {
     client.close();
   }
