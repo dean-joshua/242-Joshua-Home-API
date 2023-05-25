@@ -1,0 +1,9 @@
+// LOCALHOST
+
+### GET all
+GET http://localhost:8080/personalData
+
+// Production
+
+### Get all
+GET https://two42-home-api.onrender.com/personalData

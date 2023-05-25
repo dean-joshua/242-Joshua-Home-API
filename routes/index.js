@@ -1,6 +1,6 @@
-const routes = require('express').Router();
-const { getPersonalData } = require('../controllers/');
+const router = require('express').Router();
 
-routes.get('/', getPersonalData);
+router.use('/', require('./swagger'));
+router.use('/personalData', require('./personalData'));
 
-module.exports = routes;
+module.exports = router;
