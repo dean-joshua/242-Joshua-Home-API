@@ -8,7 +8,10 @@ const app = express();
 const cors = require('cors');
 app.use(
   cors({
-    origin: ['http://localhost:3000'],
+    origin: [
+      'http://localhost:3000',
+      'https://joshua-242-personalsite.onrender.com/',
+    ],
   })
 );
 
