@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:3000',
-      'https://joshua-242-personalsite.onrender.com/',
+      'https://joshua-242-personalsite.onrender.com',
     ],
   })
 );
